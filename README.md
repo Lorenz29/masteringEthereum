@@ -1,2 +1,2 @@
 # masteringEthereum
-# This a Repository to practice from Mastering Ethereum
+# This is a Repository to practice from Mastering Ethereum
