@@ -19,11 +19,11 @@
             "type": "receive"
         }
     ],
-    "metadata": "{\"compiler\":{\"version\":\"0.6.4+commit.1dca32f3\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"withdraw_amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet2.sol\":\"Faucet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet2.sol\":{\"keccak256\":\"0x6209bb872be4c90203e8afb998faec4ac87a03f98a8fbace5924d71bf0fe8918\",\"urls\":[\"bzz-raw://98fb7727e2f9361e532264c9eac0befde6ecbe1b185a7404e286a33864692a90\",\"dweb:/ipfs/QmYRSkxf6zTPFqXdYsctsmU3xxnX4ARTB9dHRJxssTdVrP\"]}},\"version\":1}",
-    "bytecode": "608060405234801561001057600080fd5b5060cc8061001f6000396000f3fe608060405260043610601f5760003560e01c80632e1a7d4d14602a576025565b36602557005b600080fd5b348015603557600080fd5b50605060048036036020811015604a57600080fd5b50356052565b005b67016345785d8a0000811115606657600080fd5b604051339082156108fc029083906000818181858888f193505050501580156092573d6000803e3d6000fd5b505056fea264697066735822122012899c45f673f1926b0f051b4b2f4ce6c562eb8206276f9ab8629cb75a8cfc9464736f6c63430006040033",
-    "deployedBytecode": "608060405260043610601f5760003560e01c80632e1a7d4d14602a576025565b36602557005b600080fd5b348015603557600080fd5b50605060048036036020811015604a57600080fd5b50356052565b005b67016345785d8a0000811115606657600080fd5b604051339082156108fc029083906000818181858888f193505050501580156092573d6000803e3d6000fd5b505056fea264697066735822122012899c45f673f1926b0f051b4b2f4ce6c562eb8206276f9ab8629cb75a8cfc9464736f6c63430006040033",
-    "sourceMap": "169:398:0:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;169:398:0;;;;;;;",
-    "deployedSourceMap": "169:398:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;306:258:0;;5:9:-1;2:2;;;27:1;24;17:12;2:2;306:258:0;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;-1:-1;306:258:0;;:::i;:::-;;;427:18;408:15;:37;;400:46;;12:1:-1;9;2:12;400:46:0;520:36;;:10;;:36;;;;;540:15;;520:36;;;;540:15;520:10;:36;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;520:36:0;306:258;:::o",
+    "metadata": "{\"compiler\":{\"version\":\"0.6.4+commit.1dca32f3\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"withdraw_amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet2.sol\":\"Faucet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet2.sol\":{\"keccak256\":\"0x2450b3157b1c790a657b6ecc700e50c7a2a704095987a27a4876b2ee92486867\",\"urls\":[\"bzz-raw://fc06b948df59e26594b4e884f7aa1683a36eab8cf68b0324027edf32fc5c3ab5\",\"dweb:/ipfs/QmcrZ452xT8hsrQLwrYFBatNYgN9CezaM2g1ST1JxEnRZo\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060cc8061001f6000396000f3fe608060405260043610601f5760003560e01c80632e1a7d4d14602a576025565b36602557005b600080fd5b348015603557600080fd5b50605060048036036020811015604a57600080fd5b50356052565b005b67016345785d8a0000811115606657600080fd5b604051339082156108fc029083906000818181858888f193505050501580156092573d6000803e3d6000fd5b505056fea26469706673582212207b2b36ecbe93d39fb38edb193fbafa7ce87f79f58657780879d1576960365c6864736f6c63430006040033",
+    "deployedBytecode": "608060405260043610601f5760003560e01c80632e1a7d4d14602a576025565b36602557005b600080fd5b348015603557600080fd5b50605060048036036020811015604a57600080fd5b50356052565b005b67016345785d8a0000811115606657600080fd5b604051339082156108fc029083906000818181858888f193505050501580156092573d6000803e3d6000fd5b505056fea26469706673582212207b2b36ecbe93d39fb38edb193fbafa7ce87f79f58657780879d1576960365c6864736f6c63430006040033",
+    "sourceMap": "317:398:0:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;317:398:0;;;;;;;",
+    "deployedSourceMap": "317:398:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;454:258:0;;5:9:-1;2:2;;;27:1;24;17:12;2:2;454:258:0;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;-1:-1;454:258:0;;:::i;:::-;;;575:18;556:15;:37;;548:46;;12:1:-1;9;2:12;548:46:0;668:36;;:10;;:36;;;;;688:15;;668:36;;;;688:15;668:10;:36;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;668:36:0;454:258;:::o",
     "sourcePath": "c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet2.sol",
     "compiler": {
         "name": "solc",
@@ -45,10 +45,10 @@
                     "solidity",
                     "^",
                     "0.6",
-                    ".4"
+                    ".0"
                 ],
                 "nodeType": "PragmaDirective",
-                "src": "106:23:0"
+                "src": "254:23:0"
             },
             {
                 "abstract": false,
@@ -68,7 +68,7 @@
                         "body": {
                             "id": 4,
                             "nodeType": "Block",
-                            "src": "254:2:0",
+                            "src": "402:2:0",
                             "statements": []
                         },
                         "documentation": null,
@@ -83,16 +83,16 @@
                             "id": 2,
                             "nodeType": "ParameterList",
                             "parameters": [],
-                            "src": "234:2:0"
+                            "src": "382:2:0"
                         },
                         "returnParameters": {
                             "id": 3,
                             "nodeType": "ParameterList",
                             "parameters": [],
-                            "src": "254:0:0"
+                            "src": "402:0:0"
                         },
                         "scope": 26,
-                        "src": "227:29:0",
+                        "src": "375:29:0",
                         "stateMutability": "payable",
                         "virtual": false,
                         "visibility": "external"
@@ -101,7 +101,7 @@
                         "body": {
                             "id": 24,
                             "nodeType": "Block",
-                            "src": "353:211:0",
+                            "src": "501:211:0",
                             "statements": [
                                 {
                                     "expression": {
@@ -125,7 +125,7 @@
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
                                                     "referencedDeclaration": 7,
-                                                    "src": "408:15:0",
+                                                    "src": "556:15:0",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
                                                         "typeString": "uint256"
@@ -143,7 +143,7 @@
                                                     "kind": "number",
                                                     "lValueRequested": false,
                                                     "nodeType": "Literal",
-                                                    "src": "427:18:0",
+                                                    "src": "575:18:0",
                                                     "subdenomination": null,
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_rational_100000000000000000_by_1",
@@ -151,7 +151,7 @@
                                                     },
                                                     "value": "100000000000000000"
                                                 },
-                                                "src": "408:37:0",
+                                                "src": "556:37:0",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_bool",
                                                     "typeString": "bool"
@@ -173,7 +173,7 @@
                                                 -18
                                             ],
                                             "referencedDeclaration": -18,
-                                            "src": "400:7:0",
+                                            "src": "548:7:0",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                                                 "typeString": "function (bool) pure"
@@ -187,7 +187,7 @@
                                         "lValueRequested": false,
                                         "names": [],
                                         "nodeType": "FunctionCall",
-                                        "src": "400:46:0",
+                                        "src": "548:46:0",
                                         "tryCall": false,
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_tuple$__$",
@@ -196,7 +196,7 @@
                                     },
                                     "id": 15,
                                     "nodeType": "ExpressionStatement",
-                                    "src": "400:46:0"
+                                    "src": "548:46:0"
                                 },
                                 {
                                     "expression": {
@@ -209,7 +209,7 @@
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
                                                 "referencedDeclaration": 7,
-                                                "src": "540:15:0",
+                                                "src": "688:15:0",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
                                                     "typeString": "uint256"
@@ -232,7 +232,7 @@
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
                                                     "referencedDeclaration": -15,
-                                                    "src": "520:3:0",
+                                                    "src": "668:3:0",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_magic_message",
                                                         "typeString": "msg"
@@ -246,7 +246,7 @@
                                                 "memberName": "sender",
                                                 "nodeType": "MemberAccess",
                                                 "referencedDeclaration": null,
-                                                "src": "520:10:0",
+                                                "src": "668:10:0",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_address_payable",
                                                     "typeString": "address payable"
@@ -260,7 +260,7 @@
                                             "memberName": "transfer",
                                             "nodeType": "MemberAccess",
                                             "referencedDeclaration": null,
-                                            "src": "520:19:0",
+                                            "src": "668:19:0",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
                                                 "typeString": "function (uint256)"
@@ -274,7 +274,7 @@
                                         "lValueRequested": false,
                                         "names": [],
                                         "nodeType": "FunctionCall",
-                                        "src": "520:36:0",
+                                        "src": "668:36:0",
                                         "tryCall": false,
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_tuple$__$",
@@ -283,7 +283,7 @@
                                     },
                                     "id": 23,
                                     "nodeType": "ExpressionStatement",
-                                    "src": "520:36:0"
+                                    "src": "668:36:0"
                                 }
                             ]
                         },
@@ -307,7 +307,7 @@
                                     "nodeType": "VariableDeclaration",
                                     "overrides": null,
                                     "scope": 25,
-                                    "src": "324:20:0",
+                                    "src": "472:20:0",
                                     "stateVariable": false,
                                     "storageLocation": "default",
                                     "typeDescriptions": {
@@ -318,7 +318,7 @@
                                         "id": 6,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
-                                        "src": "324:4:0",
+                                        "src": "472:4:0",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
                                             "typeString": "uint256"
@@ -328,26 +328,26 @@
                                     "visibility": "internal"
                                 }
                             ],
-                            "src": "323:22:0"
+                            "src": "471:22:0"
                         },
                         "returnParameters": {
                             "id": 9,
                             "nodeType": "ParameterList",
                             "parameters": [],
-                            "src": "353:0:0"
+                            "src": "501:0:0"
                         },
                         "scope": 26,
-                        "src": "306:258:0",
+                        "src": "454:258:0",
                         "stateMutability": "nonpayable",
                         "virtual": false,
                         "visibility": "public"
                     }
                 ],
                 "scope": 27,
-                "src": "169:398:0"
+                "src": "317:398:0"
             }
         ],
-        "src": "106:461:0"
+        "src": "254:461:0"
     },
     "functionHashes": {
         "withdraw(uint256)": "2e1a7d4d"

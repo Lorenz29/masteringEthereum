@@ -1,10 +1,5 @@
 // SPDX-License-Identifier: CC-BY-SA-4.0
 
-// Version of Solidity compiler this program was written for
-//https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc#selecting-a-solidity-compiler-and-language-version
-
-pragma solidity ^0.6.0;
-
 // Our first contract is a faucet!
 contract Faucet {
     // Accept any incoming amount
