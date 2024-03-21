@@ -1,74 +1,19 @@
 {
-    "contractName": "Faucet",
+    "contractName": "mortal",
     "abi": [
-        {
-            "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "amount",
-                    "type": "uint256"
-                }
-            ],
-            "name": "Deposit",
-            "type": "event"
-        },
-        {
-            "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "to",
-                    "type": "address"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "amount",
-                    "type": "uint256"
-                }
-            ],
-            "name": "Withdrawal",
-            "type": "event"
-        },
         {
             "inputs": [],
             "name": "destroy",
             "outputs": [],
             "stateMutability": "nonpayable",
             "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "withdraw_amount",
-                    "type": "uint256"
-                }
-            ],
-            "name": "withdraw",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "stateMutability": "payable",
-            "type": "receive"
         }
     ],
-    "metadata": "{\"compiler\":{\"version\":\"0.6.4+commit.1dca32f3\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Deposit\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Withdrawal\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"destroy\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"withdraw_amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet3.sol\":\"Faucet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet3.sol\":{\"keccak256\":\"0x15183f93e304e95971c7dd202e432e29f8725973e43f8382ac39ecc38027b543\",\"urls\":[\"bzz-raw://566d6db6ae4e78d88e095c8c80f16f6ec343a96f8871e21e78eef07b12823d09\",\"dweb:/ipfs/Qmc6YfoqLfcsR3vkyfLppjSMdqQy4oc3RUxeLnP2sm5FZQ\"]}},\"version\":1}",
-    "bytecode": "6080604052600080546001600160a01b0319163317905561025b806100256000396000f3fe60806040526004361061002d5760003560e01c80632e1a7d4d1461006f57806383197ef01461009b5761006a565b3661006a5760408051348152905133917fe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c919081900360200190a2005b600080fd5b34801561007b57600080fd5b506100996004803603602081101561009257600080fd5b50356100b0565b005b3480156100a757600080fd5b5061009961016b565b67016345785d8a00008111156100c557600080fd5b804710156101045760405162461bcd60e51b81526004018080602001828103825260358152602001806101f16035913960400191505060405180910390fd5b604051339082156108fc029083906000818181858888f19350505050158015610131573d6000803e3d6000fd5b5060408051828152905133917f7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65919081900360200190a250565b6000546001600160a01b031633146101b45760405162461bcd60e51b815260040180806020018281038252602e8152602001806101c3602e913960400191505060405180910390fd5b6000546001600160a01b0316fffe4f6e6c792074686520636f6e7472616374206f776e65722063616e2063616c6c20746869732066756e6374696f6e496e73756666696369656e742062616c616e636520696e2066617563657420666f72207769746864726177616c2072657175657374a2646970667358221220144906f8c47c6ccc54d8004e7084fb51898a6b18ee4c76fdb325672a741afed364736f6c63430006040033",
-    "deployedBytecode": "60806040526004361061002d5760003560e01c80632e1a7d4d1461006f57806383197ef01461009b5761006a565b3661006a5760408051348152905133917fe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c919081900360200190a2005b600080fd5b34801561007b57600080fd5b506100996004803603602081101561009257600080fd5b50356100b0565b005b3480156100a757600080fd5b5061009961016b565b67016345785d8a00008111156100c557600080fd5b804710156101045760405162461bcd60e51b81526004018080602001828103825260358152602001806101f16035913960400191505060405180910390fd5b604051339082156108fc029083906000818181858888f19350505050158015610131573d6000803e3d6000fd5b5060408051828152905133917f7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65919081900360200190a250565b6000546001600160a01b031633146101b45760405162461bcd60e51b815260040180806020018281038252602e8152602001806101c3602e913960400191505060405180910390fd5b6000546001600160a01b0316fffe4f6e6c792074686520636f6e7472616374206f776e65722063616e2063616c6c20746869732066756e6374696f6e496e73756666696369656e742062616c616e636520696e2066617563657420666f72207769746864726177616c2072657175657374a2646970667358221220144906f8c47c6ccc54d8004e7084fb51898a6b18ee4c76fdb325672a741afed364736f6c63430006040033",
-    "sourceMap": "743:769:0:-:0;;;366:5;:18;;-1:-1:-1;;;;;;366:18:0;374:10;366:18;;;743:769;;;;;;",
-    "deployedSourceMap": "743:769:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;1471:30;;;1491:9;1471:30;;;;1479:10;;1471:30;;;;;;;;;;743:769;;12:1:-1;9;2:12;953:433:0;;5:9:-1;2:2;;;27:1;24;17:12;2:2;953:433:0;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;-1:-1;953:433:0;;:::i;:::-;;626:74;;5:9:-1;2:2;;;27:1;24;17:12;2:2;626:74:0;;;:::i;953:433::-;1074:9;1055:15;:28;;1047:37;;12:1:-1;9;2:12;1047:37:0;1138:15;1113:21;:40;;1105:106;;;;-1:-1:-1;;;1105:106:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1285:36;;:10;;:36;;;;;1305:15;;1285:36;;;;1305:15;1285:10;:36;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;-1:-1;1339:39:0;;;;;;;;1350:10;;1339:39;;;;;;;;;;953:433;:::o;626:74::-;483:5;;-1:-1:-1;;;;;483:5:0;469:10;:19;461:78;;;;-1:-1:-1;;;461:78:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;686:5:::1;::::0;-1:-1:-1;;;;;686:5:0::1;673:19",
+    "metadata": "{\"compiler\":{\"version\":\"0.6.4+commit.1dca32f3\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"destroy\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet3.sol\":\"mortal\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet3.sol\":{\"keccak256\":\"0x15183f93e304e95971c7dd202e432e29f8725973e43f8382ac39ecc38027b543\",\"urls\":[\"bzz-raw://566d6db6ae4e78d88e095c8c80f16f6ec343a96f8871e21e78eef07b12823d09\",\"dweb:/ipfs/Qmc6YfoqLfcsR3vkyfLppjSMdqQy4oc3RUxeLnP2sm5FZQ\"]}},\"version\":1}",
+    "bytecode": "6080604052600080546001600160a01b0319163317905560ee806100246000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806383197ef014602d575b600080fd5b60336035565b005b6000546001600160a01b03163314607c5760405162461bcd60e51b815260040180806020018281038252602e815260200180608b602e913960400191505060405180910390fd5b6000546001600160a01b0316fffe4f6e6c792074686520636f6e7472616374206f776e65722063616e2063616c6c20746869732066756e6374696f6ea26469706673582212208ee72cb962dc682dbf2672fe7f800eaaf44ef3eeb018256029f42da27fb8e91f64736f6c63430006040033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c806383197ef014602d575b600080fd5b60336035565b005b6000546001600160a01b03163314607c5760405162461bcd60e51b815260040180806020018281038252602e815260200180608b602e913960400191505060405180910390fd5b6000546001600160a01b0316fffe4f6e6c792074686520636f6e7472616374206f776e65722063616e2063616c6c20746869732066756e6374696f6ea26469706673582212208ee72cb962dc682dbf2672fe7f800eaaf44ef3eeb018256029f42da27fb8e91f64736f6c63430006040033",
+    "sourceMap": "566:137:0:-:0;;;366:5;:18;;-1:-1:-1;;;;;;366:18:0;374:10;366:18;;;566:137;;;;;;",
+    "deployedSourceMap": "566:137:0:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;566:137:0;;;;;;;;;;;;;;;;12:1:-1;9;2:12;626:74:0;;;:::i;:::-;;;483:5;;-1:-1:-1;;;;;483:5:0;469:10;:19;461:78;;;;-1:-1:-1;;;461:78:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;686:5:::1;::::0;-1:-1:-1;;;;;686:5:0::1;673:19",
     "sourcePath": "c:/Lorenzo/GitHub/masteringEthereum/masteringEthereum/Faucet3.sol",
     "compiler": {
         "name": "solc",
@@ -1386,18 +1331,16 @@
         "src": "216:1296:0"
     },
     "functionHashes": {
-        "destroy()": "83197ef0",
-        "withdraw(uint256)": "2e1a7d4d"
+        "destroy()": "83197ef0"
     },
     "gasEstimates": {
         "creation": {
-            "codeDepositCost": "120600",
-            "executionCost": "20976",
-            "totalCost": "141576"
+            "codeDepositCost": "47600",
+            "executionCost": "20910",
+            "totalCost": "68510"
         },
         "external": {
-            "destroy()": "infinite",
-            "withdraw(uint256)": "infinite"
+            "destroy()": "infinite"
         }
     }
 }
