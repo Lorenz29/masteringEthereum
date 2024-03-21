@@ -6,12 +6,13 @@
 pragma solidity ^0.4.22;
 
 contract owned {
-    address owner;
+    address payable owner;
 
     //Contract constructor: set owner
     constructor() {
         owner = msg.sender;
     }
+
     //Access control modifier
     modifier onlyOwner {
         require(msg.sender == owner, "Only the contract owner can call this function");
@@ -28,14 +29,25 @@ contract mortal is owned {
 
 // Our first contract is a faucet!
 contract Faucet is mortal {
+    //add events
+    event Withdrawal(address indexed to, uint amount);
+    event Deposit(address indexed from, uint amount);
+    
     // Give out ether to anyone who asks
     function withdraw(uint withdraw_amount) public {
         // Limit withdrawal amount
         require(withdraw_amount <= 0.1 ether);
+        
+        require(address(this).balance >= withdraw_amount, "Insufficient balance in faucet for withdrawal request");
+
         // Send the amount to the address that requested it
-        require(this.balance >= withdraw_amount, "Insufficient balance in faucet for withdrawal request");
         msg.sender.transfer(withdraw_amount);
+
+        emit Withdrawal(msg.sender, msg.value);
     }
+    
     // Accept any incoming amount
-    function () public payable{}
+    receive() external payable{
+        emit Deposit(msg.sender, msg.value);
+    }
 }
